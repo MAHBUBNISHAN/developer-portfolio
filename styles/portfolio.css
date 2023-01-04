@@ -161,3 +161,53 @@ margin-bottom: 20px;
 font-size: 16px;
 color: #757575;
 }
+/*resume styles*/
+.resume-contain{
+    display: flex;
+    gap: 20px;
+}
+.resume.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume.sub-title{
+    color: #474747;
+    font-weight: 600;
+font-size: 20px;
+
+margin-bottom: 20px;
+}
+.resume.description{
+    
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+/*contct styles*/
+.contact{
+   display: flex;
+   gap: 100px;
+   background: #FFF8F3;
+   padding: 130px 200px;
+}
+.contact .section-title{
+text-align: left;
+}
+.contact.input,textarea{
+    margin: 24px;
+    border: 0;
+    padding-left:18px 30px;
+    width: 100%;
+}
+.contact a{
+    text-decoration: none;
+}
