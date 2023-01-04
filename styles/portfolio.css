@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family:  'Open Sans';
+}
+
+/*header and navigation styles */
+.nav-title{
+    font-weight: 800;
+font-size: 45px;
+}
+.primary-color{
+color: 
+#FD6E0A;
+}
+.header{
+    background-color: #fff8f3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+}
+.btn{
+    width: 150px;
+height: 64px;
+border-radius: 5px;
+background-color: #FD6E0A;
+
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    
+}
+.banner-sub-title{
+    font-weight: 600;
+font-size: 45px;
+margin-bottom: 20px;
+}
+.banner-description{
+   
+font-size: 18px;
+color:Dark 03 ;
+margin-bottom: 30PX;
+}
+.main{
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    text-align: center;
+margin-top: 130px;
+background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+}
+.section-title{
+
+margin-bottom: 30px;
+font-weight: 700;
+font-size: 35px;
+}
+.section-description{
+    Width
+    827px
+    Height
+    120px
+    Top
+    1176px
+    Left
+    386px
+    I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.
+    Font
+    Open Sans
+    Weight
+    400
+    Size
+    18px
+    Line height
+    30px
+    Align
+    Center
+    Dark 03
+    #757575
+    /* I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata. */
+    
+    
+    position: absolute;
+    width: 827px;
+    height: 120px;
+    left: 386px;
+    top: 1176px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    /* Dark 03 */
+    
+    color: #757575;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}-
+.about.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+font-size: 20px;
+}
